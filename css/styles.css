@@ -38,8 +38,6 @@ body {
 .header {
     background: var(--white-title-color);
     border-bottom: 1px solid var(--accent-background-color);
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .header-container{
     display: flex;
@@ -50,8 +48,11 @@ body {
     margin-right: auto;
 }
 .header-list {
-display: flex;
-gap: 40px;
+    display: block;
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -103,12 +104,15 @@ color: var(--black-title-color);
     color: var(--blue-btn-color);
 }
 
+
+
 .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
+
 
 .hero {
     background: var(--dark-title-color);
@@ -143,6 +147,8 @@ margin-bottom: 48px;
 .hero-btn:hover, .hero-btn:focus {
     background: var(--ocean-btn-color);
 }
+
+
 .skills {
     background: var(--white-title-color);
     padding-top: 120px;
@@ -151,7 +157,6 @@ margin-bottom: 48px;
     display: flex;
     gap: 24px;
 }
-
 .skills-hidden {
     position: absolute;
     white-space: nowrap;
@@ -179,11 +184,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--black-title-color);
 }
+
+
 .technologi {
     background:var(--white-title-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .technologi-item {
-    width: calc((100-48) / 3);
+    width: calc((100%-48) / 3);
 }
 
 .technologi-title {
@@ -192,21 +201,23 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
-padding-top: 120px;
 }
 .technologi-list {
     display: flex;
     margin-top: 72px;
-    padding-bottom: 120px;
     gap: 24px;
 }
+
+
 .team {
     background: var(--light-background-color);
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .team-item {
     background:var(--white-title-color);
-    width: calc((100-72px) / 4);
+    width: calc((100%-72px) / 4);
+    padding-bottom: 32px;
    }
 .team-list {
     display: flex;
@@ -219,7 +230,6 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 .team-title {
@@ -237,11 +247,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--black-title-color);
-padding-bottom: 32px;
 }
+
+
 .footer {
     background:  var(--dark-title-color);
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo {
     font-family: 'Raleway',sans-serif;
@@ -260,7 +272,6 @@ line-height: 1.16;
 align-items: center;
 letter-spacing: 0.03em;
 color: var(--blue-btn-color);
-padding-top: 100px;
 }
 .footer-title {
 max-width: 264px;
@@ -269,7 +280,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--accent-background-color);
-padding-bottom: 100px;
 margin-top: 16px;
 }
 .portfolio {
