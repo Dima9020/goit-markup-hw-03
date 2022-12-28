@@ -48,11 +48,8 @@ body {
     margin-right: auto;
 }
 .header-list {
-    display: block;
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 
@@ -74,28 +71,36 @@ letter-spacing: 0.03em;
 color: var(--blue-btn-color);
 }
 .header-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-title-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-link:hover,.header-link:focus {
 color: var(--blue-btn-color);
 }
 
 .header-mailto {
+display: block;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--black-title-color);
-
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .header-tel {
+display: block;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--black-title-color);
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .header-mailto:hover,.header-mailto:focus {
     color: var(--blue-btn-color);
@@ -331,12 +336,13 @@ cursor: pointer;
 display: inline-block;
 border-radius: 4px;
 padding: 12px 24px;
-border: 1px solid var(--accent-background-color);
+border:1px solid var(--accent-background-color);
 }
 
 .portfolio-btn:hover,.portfolio-btn:focus {
    background-color: var(--ocean-btn-color);
    color: var(--white-title-color);
+   border-color: transparent;
 }
 
 .portfolio-title {
